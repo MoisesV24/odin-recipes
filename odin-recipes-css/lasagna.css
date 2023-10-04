@@ -3,35 +3,42 @@
 }
 
 h1{
-    width: 600px;
+    width: 300px;
     height: 100px;
     font-size: 20px;
     background-color: yellow;
     font-weight: bold;
     text-align: center;
+    line-height: 100px;
+    outline: 1px solid black;
 }
 
 .home{
-    width: 30px;
-    height: 25px;
-    background-color: gray;
+    display: inline-block;
+    width: 75px;
+    height: 20px;
+    background-color: lightgray;
     text-decoration: none;
+    text-align: center;
+    outline: 1px solid black;
+}
+
+.title{
+    width: 250px;
+    background-color: lightslategray;
+    font-weight: bold;
+    font-size: 30px;
     text-align: center;
 }
 
 p.description{
-    font-size: 13px;
+    font-size: 15px;
 }
 
-h2{
-    width: 450px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.ingredients{
+.li{
     list-style-type: none;
-    font-size: 10px;
+    font-size: 17px;
 }
+
+
 
